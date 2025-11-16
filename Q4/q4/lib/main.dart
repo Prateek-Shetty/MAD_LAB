@@ -15,6 +15,7 @@ class CounterApp extends StatelessWidget {
   }
 }
 
+
 class CounterHomePage extends StatefulWidget {
   const CounterHomePage({super.key});
   @override
@@ -56,10 +57,7 @@ class _CounterHomePageState extends State<CounterHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('COUNTER APPLICATION'),
-        centerTitle: true,
-      ),
+      appBar: AppBar(title: const Text('COUNTER APPLICATION'),centerTitle: true,),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
