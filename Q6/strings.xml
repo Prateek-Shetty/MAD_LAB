@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">medicinerem</string>
+    <string-array name="timeoftheday">
+        <item>MORNING</item>
+        <item>AFTERNOON</item>
+        <item>EVENING</item>
+        <item>NIGHT</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>
