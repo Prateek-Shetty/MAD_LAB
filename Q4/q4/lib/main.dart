@@ -15,7 +15,6 @@ class CounterApp extends StatelessWidget {
   }
 }
 
-
 class CounterHomePage extends StatefulWidget {
   const CounterHomePage({super.key});
   @override
